@@ -67,7 +67,10 @@ ubuntu@tryhackme-2404:~$
 **Análisis:** la conexión SSH se estableció correctamente utilizando las credenciales proporcionadas por la plataforma, obteniendo acceso a una terminal interactiva sobre Ubuntu 24.04.1 LTS desde la cual se realizaron las actividades posteriores de reconocimiento y explotación.
 
 **Evidencia:** *Figura 2 — Conexión remota mediante SSH.*
-![Conexión SSH](evidencias/02-conexion-ssh.png)
+
+<p align="center">
+  <img src="evidencias/02-conexion-ssh.png" alt="Conexión SSH" width="700">
+</p>
 
 ---
 
@@ -86,11 +89,8 @@ ls
 
 **Análisis:** la correcta localización del directorio de trabajo es un paso necesario para garantizar que el script `exploit.py` se ejecute con las rutas relativas correctas, especialmente respecto al archivo de offsets utilizado en etapas posteriores.
 
-**Evidencia:** *Figura 2 — Conexión remota mediante SSH.*
-
-<p align="center">
-  <img src="evidencias/02-conexion-ssh.png" alt="Conexión SSH" width="700">
-</p>
+**Evidencia:** *Figura 3 — Localización del directorio del laboratorio.*
+![Localización del directorio](evidencias/03-localizacion-directorio.png)
 
 ---
 
