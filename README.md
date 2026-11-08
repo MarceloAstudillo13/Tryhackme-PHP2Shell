@@ -68,10 +68,7 @@ ubuntu@tryhackme-2404:~$
 
 **Evidencia:** *Figura 2 — Conexión remota mediante SSH.*
 
-<p align="center">
-  <img src="evidencias/02-conexion-ssh.png" alt="Conexión SSH" width="700">
-</p>
-
+![Conexión SSH](evidencias/02-conexion-ssh.png)
 ---
 
 ### Paso 3 — Localización del directorio del laboratorio
@@ -90,8 +87,8 @@ ls
 **Análisis:** la correcta localización del directorio de trabajo es un paso necesario para garantizar que el script `exploit.py` se ejecute con las rutas relativas correctas, especialmente respecto al archivo de offsets utilizado en etapas posteriores.
 
 **Evidencia:** *Figura 3 — Localización del directorio del laboratorio.*
-![Localización del directorio](evidencias/03-localizacion-directorio.png)
 
+![Localización del directorio](evidencias/03-localizacion-directorio.png)
 ---
 
 ### Paso 4 — Ejecución del exploit y comprobación de ejecución remota de comandos (RCE)
