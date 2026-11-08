@@ -86,8 +86,11 @@ ls
 
 **Análisis:** la correcta localización del directorio de trabajo es un paso necesario para garantizar que el script `exploit.py` se ejecute con las rutas relativas correctas, especialmente respecto al archivo de offsets utilizado en etapas posteriores.
 
-**Evidencia:** *Figura 3 — Localización del directorio del laboratorio.*
-![Localización del directorio](evidencias/03-localizacion-directorio.png)
+**Evidencia:** *Figura 2 — Conexión remota mediante SSH.*
+
+<p align="center">
+  <img src="evidencias/02-conexion-ssh.png" alt="Conexión SSH" width="700">
+</p>
 
 ---
 
